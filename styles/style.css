@@ -5,7 +5,29 @@ body{
     margin: 0;
     overflow-x: hidden;
 }
-/* testing  */
+/*--------------
+tag styles start
+----------------*/
+h1{
+    color: black;
+    margin:0;
+}
+h2{
+    margin: 0 0;
+}
+p{
+    color: #6C6C6C;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+/*--------------
+tag styles end
+----------------*/
+
+/*-----------------------
+ First part top start 
+----------------------- */
 .top-header{
     display: flex;
     gap: 100px;
@@ -18,14 +40,14 @@ body{
     padding-bottom: 90px;
     /* padding: 60px; */
 }
+.head-image img{
+    width: 556px;
+    height: 438px;
+}
 .conmebol-text{
     font-size: 64px;
     line-height: 80px;
     color: #FFFFFF;
-}
-h1{
-    color: black;
-    margin:0;
 }
 .watch-button{
     background-color: #E02C6D;
@@ -38,10 +60,19 @@ h1{
 .right-arrow{
     margin-left: 8px;
 }
-.head-image img{
-    width: 556px;
-    height: 438px;
+.football:hover{
+    transform: rotate(45deg);
+    transition: transform 1s ease-in;
+    cursor: pointer;
 }
+/*--------------------- 
+first part top end  
+-----------------------*/
+
+/*--------------------------
+second part players start 
+---------------------------- */
+
 .players-background{
     background-color: #FFFFFF;
     /* margin: 5% 10%; */
@@ -76,38 +107,13 @@ h1{
     flex-wrap: wrap;
     padding: 15px;
 }
-h2{
-    margin: 0 0;
-}
-p{
-    color: #6C6C6C;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-}
-.logo img{
-    width: 483px;
-    height: 110px;
-}
-.footers {
-    text-align: center;
-    margin-top: 155px;
-    margin-bottom: 66px;
-}
-.gap{
-    margin-bottom: 20px;
-}
-.logo-space{
-    margin-left: 14px;
-    height: 32px;
-    width: 32px;
-}
-footer{
-    margin-bottom: 0;
-    font-size: 18px;
-}
+/*--------------------------
+second part players End 
+---------------------------- */
 
-/* bonous section no 1 start */
+/*------------------
+bonous section start
+-------------------- */
 .presedent{
     display: flex;
     gap: 100px;
@@ -126,13 +132,40 @@ footer{
     height: 438px;
     border-radius: 50%;
 }
+/*---------------------
+ bonous section end
+-----------------------*/
 
-/* bonous section no 1 end  */
-
-
-/*----------------------------------
- media queries for mobile devices
- -----------------------------------  */
+/*----------------------
+ Last part footer start  
+ -----------------------*/
+.footers {
+    text-align: center;
+    margin-top: 155px;
+    margin-bottom: 66px;
+}
+.logo img{
+    width: 483px;
+    height: 110px;
+}
+.gap{
+    margin-bottom: 20px;
+}
+.logo-space{
+    margin-left: 14px;
+    height: 32px;
+    width: 32px;
+}
+footer{
+    margin-bottom: 0;
+    font-size: 18px;
+}
+/*-------------------
+last part footer end 
+---------------------*/
+/*-------------------------------------
+ media queries for mobile devices start
+ --------------------------------------  */
 
 @media only screen and (max-width:688px) {
     .top-header, .presedent{
@@ -145,3 +178,7 @@ footer{
         margin-bottom: 40px;
     }
 }
+
+/*-------------------------------------
+ media queries for mobile devices end
+ --------------------------------------  */
