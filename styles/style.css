@@ -15,6 +15,10 @@ h1{
 h2{
     margin: 0 0;
 }
+h3{
+    color: limegreen;
+    font-size: 25px;
+}
 p{
     color: #6C6C6C;
     font-weight: 400;
@@ -61,7 +65,7 @@ tag styles end
     margin-left: 8px;
 }
 .football:hover{
-    transform: rotate(45deg);
+    transform: rotate(30deg);
     transition: transform 1s ease-in;
     cursor: pointer;
 }
@@ -75,10 +79,10 @@ second part players start
 
 .players-background{
     background-color: #FFFFFF;
-    /* margin: 5% 10%; */
     margin-top: 70px;
     margin-left: 190px;
     margin-right: 190px;
+    /* margin: 5% 10%; */
 }
 .players{
     display: grid;
@@ -91,9 +95,9 @@ second part players start
     /* margin-top: 70px; */
 }
 .player img{
+    width: 100%;
     /* width: 300px;
     height: 256px; */
-    width: 100%;
 }
 .player-image{
     padding-left: 15px;
@@ -131,6 +135,15 @@ bonous section start
     width: 400px;
     height: 438px;
     border-radius: 50%;
+}
+.more-info{
+    background-image: linear-gradient(orange, tomato);
+    text-decoration: none;
+    padding:10px 10px;
+    color: white;
+    font-size: 18px;
+    padding-top: 5px;
+    border-radius: 20px;
 }
 /*---------------------
  bonous section end
